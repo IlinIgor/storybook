@@ -1,0 +1,12 @@
+.container {
+    margin-bottom: 22px;
+}
+
+.error {
+    margin-top: 6px;
+}
+
+.errorText {
+    color: #EB5757;
+    font-size: 14px;
+}
