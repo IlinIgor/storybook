@@ -21,7 +21,7 @@ const LoginForm = () => {
     }
 
     return (
-        <form onSubmit={onSubmit}>
+        <form className={styles.form} onSubmit={onSubmit}>
             <Field
                 placeholder="Email"
                 type="email"

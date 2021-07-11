@@ -4,6 +4,8 @@ import Button from '../../atoms/Button'
 
 import Field from '../../molecules/Field'
 
+import styles from './SignupForm.module.css'
+
 const SignupForm = () => {
     const [values, setValues] = useState({})
 
@@ -17,7 +19,7 @@ const SignupForm = () => {
     }
 
     return (
-        <form onSubmit={onSubmit}>
+        <form className={styles.form} onSubmit={onSubmit}>
             <Field
                 placeholder="First name"
                 name="firstName"

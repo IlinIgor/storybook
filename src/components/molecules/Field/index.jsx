@@ -43,9 +43,11 @@ const Field = ({
 
 Field.defaultProps = {
     onChange: () => {},
+    type: 'text',
 }
 
 Field.propTypes = {
+    type: PropTypes.oneOf(['text', 'password', 'email']),
     onChange: PropTypes.func,
 }
 

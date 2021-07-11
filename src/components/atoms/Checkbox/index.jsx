@@ -19,15 +19,13 @@ const Checkbox = ({label, value, name, onChange}) => {
 }
 
 Checkbox.defaultProps = {
-    label: '',
-    name: '',
     value: false
 }
 
 Checkbox.propTypes = {
-    label: PropTypes.string,
+    label: PropTypes.string.isRequired,
     value: PropTypes.bool,
-    name: PropTypes.string,
+    name: PropTypes.string.isRequired,
     onChange: PropTypes.func.isRequired
 }
 

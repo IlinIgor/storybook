@@ -25,6 +25,7 @@ const AuthTemplate = ({match}) => {
         pathname === `${match.path}/login` ||
         pathname === `${match.path}/signup`
     ), [pathname, match.path])
+
     return (
         <div className={styles.page}>
             <div className={styles.content}>

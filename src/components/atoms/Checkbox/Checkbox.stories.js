@@ -29,5 +29,6 @@ export const Checkbox = (args) => {
 };
 Checkbox.args = {
     label: 'Remember me',
+    name: 'rememberMe',
     value: false
 };
