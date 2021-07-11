@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Storybook example app
 
 ## Available Scripts
 
@@ -29,6 +29,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `yarn storybook`
 Runs the storybook of the app.
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 ## Learn More
 
