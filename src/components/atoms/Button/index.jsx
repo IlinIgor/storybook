@@ -3,14 +3,19 @@ import PropTypes from 'prop-types'
 
 import styles from './Button.module.css'
 
-const Button = ({children}) => {
+const Button = ({children, onClick}) => {
     return (
-        <button className={styles.button}>{children}</button>
+        <button className={styles.button} onClick={onClick}>{children}</button>
     )
 }
 
 Button.propTypes = {
-    children: PropTypes.string.isRequired
+    children: PropTypes.string.isRequired,
+    onClick: PropTypes.func
+}
+
+Button.defaultProps = {
+    onClick: undefined
 }
 
 export default Button

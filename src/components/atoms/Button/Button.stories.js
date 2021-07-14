@@ -4,7 +4,14 @@ import ButtonComponent from '.'
 
 export default {
     title: 'Design System/Atoms/Button',
-    component: ButtonComponent
+    component: ButtonComponent,
+    argTypes: {
+        onClick: {
+          control: {
+            disable: true,
+          },
+        },
+    }
 };
 
 export const Button = (args) => (
